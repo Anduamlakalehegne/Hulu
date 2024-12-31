@@ -1,0 +1,34 @@
+.FooterMain {
+    background: #fff;
+    padding: 20px;
+}
+
+.FooterMain .FooterRow {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.FooterRow div h6 {
+    font-weight: 800;
+    font-size: 20px;
+    color: #000;
+}
+
+.FooterRow div a {
+    display: block;
+    color: #5f5c5c;
+    margin-block: 20px;
+}
+
+.FooterRow1 {
+    border-top: 0.2px solid #ccc;
+    text-align: center;
+    padding: 20px;
+}
+
+.FooterRow1 h5 {
+    color: #000;
+    font-weight: 800;
+    font-size: 30px;
+}

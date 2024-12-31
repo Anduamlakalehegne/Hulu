@@ -1,0 +1,75 @@
+.MainBg {
+    position: relative;
+}
+
+.MainBg img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.MainBgContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.MainBgContent a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.MainBgContent1 {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 40px;
+}
+
+.MainBgContent .logo1 {
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+    cursor: not-allowed;
+}
+
+.MainBgContent h6 {
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--SmallHeading);
+}
+
+.MainBgContent div div p {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+/* For MainBg2 */
+.MainBg2 {
+    background: var(--GreenBg);
+    padding: 20px;
+    text-align: center;
+}
+
+.MainBg2 h6 {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-block: 10px;
+}
+
+.MainBg2 button {
+    border: 0.2px solid #fff;
+    width: 300px;
+    background: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px 19px;
+    border-radius: 10px;
+    cursor: pointer;
+}

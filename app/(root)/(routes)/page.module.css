@@ -1,0 +1,27 @@
+.Custom {
+    margin-block: 100px;
+    text-align: center;
+}
+
+/* For SecondHeader */
+.SecondHeader {
+    background: url(/assets/SecondHeader.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.SecondHeaderContent {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.SecondHeaderContent h6 {
+    font-weight: 800;
+    font-size: 80px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+.Content {
+    display: flex;
+    justify-content: center;
+}
+
+.ContentRow {
+    text-align: center;
+}
+
+.ContentRow h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--SmallHeading);
+}
+
+.ContentRow h6 {
+    font-weight: 800;
+    font-size: 60px;
+    margin-block: 15px;
+}
+
+.ContentRow p {
+    color: #ccc;
+}

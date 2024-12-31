@@ -1,0 +1,11 @@
+.BackButton {
+    position: absolute;
+    background: var(--GreenBg);
+    width: max-content;
+    padding: 8px 15px;
+    border-radius: 999px;
+    cursor: pointer;
+    margin: 20px 30px;
+    color: #fff;
+    font-weight: 800;
+}

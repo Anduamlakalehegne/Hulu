@@ -1,0 +1,40 @@
+/* Root */
+:root {
+  --GreenBg: #277a09;
+  --bg: #0b0c0f;
+  --SmallHeading: #06e83b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  font-family: Poppins sans-serif;
+  transition: 0.2s ease-in;
+}
+
+body {
+  background: var(--bg);
+  color: #fff;
+}
+
+*::selection {
+  background: var(--SmallHeading);
+  color: #fff;
+}
+
+/* For Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--GreenBg);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}

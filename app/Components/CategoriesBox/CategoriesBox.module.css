@@ -1,0 +1,57 @@
+.CategoriesBox_Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+}
+
+.CategoriesBox_Row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.CategoriesBox_Box {
+    position: relative;
+    width: calc(100% / 4 - 25px);
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 520px;
+}
+
+.CategoriesBox_Box:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.CategoriesBox_Box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.CategoriesBox_Box .CategoriesBox_BoxOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+
+.CategoriesBox_Box .CategoriesBox_BoxContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.CategoriesBox_BoxContent h6 {
+    font-weight: 800;
+    font-size: 20px;
+}

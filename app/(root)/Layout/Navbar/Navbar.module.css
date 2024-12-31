@@ -1,0 +1,16 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 200px;
+    padding-block: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+}
+
+.Navbar a {
+    color: #fff;
+    margin-top: 45px;
+    font-size: 20px;
+    font-weight: 700;
+}
