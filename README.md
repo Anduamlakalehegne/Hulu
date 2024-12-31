@@ -1,5 +1,4 @@
 # Hulu Clone  
-![netflix clone from scratch](https://github.com/user-attachments/assets/059ba918-6112-423b-a271-d1b481d9cb0f)
 
 
 ## Overview  
@@ -40,10 +39,10 @@ To run this project locally, follow the steps below:
 
 1. Clone this repository to your local machine:  
    ```bash  
-   git clone https://github.com/EasyCodingTutorial/hulu.git
+   git clone https://github.com/Anduamlakalehegne/Hulu.git
 2. Navigate to the project directory:
    ```bash  
-   cd hulu-clone
+   cd Hulu
    
 3. Install dependencies:
    ```bash  
@@ -57,20 +56,5 @@ To run this project locally, follow the steps below:
    ```bash  
     http://localhost:3000  
 
-## Future Enhancements
-If you'd like to extend this project, consider adding:
-  - A backend with APIs for authentication and data management.
-  - User profiles and personalized dashboards.
-  - Integration with a video player for streaming features.
-
-
-
-## Contributions
-Contributions are welcome! If you want to help improve the design or add functionality, feel free to fork this repository, make your changes, and submit a pull request.
-
-
-
-## Learn By Watching Video ▶️
-[![Watch Demo Video](https://img.youtube.com/vi/waaSxLcffqI/maxresdefault.jpg)](https://www.youtube.com/watch?v=waaSxLcffqI)
 
 
